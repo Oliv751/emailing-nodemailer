@@ -1,0 +1,11 @@
+#
+POST http://localhost:5005/contact
+Content-Type: application/json
+
+{
+  "name": "Doe",
+  "surname": "John",
+  "phone": "+33 6 14 55 23 58",
+  "email": "johndoe@email.com",
+  "message": "Hello ! i need some extra informations about your amazing website !"
+}
